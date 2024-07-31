@@ -13,9 +13,6 @@ const Home: React.FC = () => {
     <Container className={styles.container} size="lg" px="md">
       <HeaderMenu />
       <HeroContent />
-      <div>
-        <h1>Home Page</h1>
-      </div>
       <LeadGrid />
       <FooterCentered />
     </Container>

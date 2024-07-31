@@ -1,8 +1,10 @@
 .hero {
   position: relative;
-  background-image: url(https://images.unsplash.com/photo-1578430131704-afcab6fcd658?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-image: url(https://images.unsplash.com/photo-1568489711036-9c94a7d5aea6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-size: cover;
   background-position: center;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .container {
@@ -22,10 +24,10 @@
 }
 
 .title {
-  color: var(--mantine-color-white);
-  font-size: rem(60px);
-  font-weight: 900;
-  line-height: 1.1;
+  color: var(--mantine-color-yellow-6);
+  font-size: rem(60px) !important;
+  font-weight: 900 !important;
+  line-height: 1.1 !important;
 
   @media (max-width: $mantine-breakpoint-sm) {
     font-size: rem(40px);
@@ -39,19 +41,19 @@
 }
 
 .description {
-  color: var(--mantine-color-white);
-  max-width: rem(600px);
+  color: var(--mantine-color-white) !important;
+  max-width: rem(600px) !important;
 
   @media (max-width: $mantine-breakpoint-sm) {
-    max-width: 100%;
-    font-size: var(--mantine-font-size-sm);
+    max-width: 100% !important;
+    font-size: var(--mantine-font-size-sm) !important;
   }
 }
 
 .control {
-  margin-top: calc(var(--mantine-spacing-xl) * 1.5);
+  margin-top: calc(var(--mantine-spacing-xl) * 1.5) !important;
 
   @media (max-width: $mantine-breakpoint-sm) {
-    width: 100%;
+    width: 100% !important;
   }
 }
