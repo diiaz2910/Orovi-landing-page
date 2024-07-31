@@ -7,13 +7,7 @@ import {
 import { MantineLogo } from "@mantinex/mantine-logo";
 import classes from "./Footer.module.css";
 
-const links = [
-  { link: "#", label: "Contact" },
-  { link: "#", label: "Privacy" },
-  { link: "#", label: "Blog" },
-  { link: "#", label: "Store" },
-  { link: "#", label: "Careers" },
-];
+const links = [{ link: "#", label: "Contact" }];
 
 export function FooterCentered() {
   const items = links.map((link) => (
