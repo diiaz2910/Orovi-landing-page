@@ -1,4 +1,6 @@
 import React from "react";
+import { Container } from "@mantine/core";
+import styles from "./Home.module.css";
 
 // components
 import { HeaderMenu } from "../components/Header/HeaderMenu";
@@ -8,7 +10,7 @@ import { HeroContent } from "../components/Hero/HeroContent";
 
 const Home: React.FC = () => {
   return (
-    <div>
+    <Container className={styles.container} size="lg" px="md">
       <HeaderMenu />
       <HeroContent />
       <div>
@@ -16,7 +18,7 @@ const Home: React.FC = () => {
       </div>
       <LeadGrid />
       <FooterCentered />
-    </div>
+    </Container>
   );
 };
 

@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 
 // styles
 import "@mantine/core/styles.css";
+import "./styles/global.css";
 
 function App() {
   return (
