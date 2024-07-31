@@ -11,7 +11,7 @@ export function HeroContent() {
       />
       <Container className={classes.container} size="md">
         <Title className={classes.title}>
-          A green paradise in the heart of Colombia
+          A green paradise in the heart of COLOMBIA
         </Title>
         <Text className={classes.description} size="xl" mt="xl">
           Come to visit the most beautiful places in Colombia and enjoy your

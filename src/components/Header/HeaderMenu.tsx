@@ -1,7 +1,6 @@
 import { Menu, Group, Center, Burger, Container } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import { IconChevronDown } from "@tabler/icons-react";
-import { MantineLogo } from "@mantinex/mantine-logo";
 import classes from "./HeaderMenu.module.css";
 
 const links = [
@@ -66,7 +65,7 @@ export function HeaderMenu() {
     <header className={classes.header}>
       <Container size="md">
         <div className={classes.inner}>
-          <MantineLogo size={28} />
+          <img src="/public/vite.svg" alt="Logo" style={{ height: "56px" }} />{" "}
           <Group gap={5} visibleFrom="sm">
             {items}
           </Group>

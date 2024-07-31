@@ -24,7 +24,7 @@
 }
 
 .title {
-  color: var(--mantine-color-yellow-6);
+  color: var(--mantine-color-yellow-6) !important;
   font-size: rem(60px) !important;
   font-weight: 900 !important;
   line-height: 1.1 !important;
