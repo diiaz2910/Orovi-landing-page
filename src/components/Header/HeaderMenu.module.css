@@ -1,7 +1,7 @@
 .header {
   height: 56px;
   margin-bottom: 10px;
-  background-color: rgba(231, 190, 5, 0.76); /* Ajustar la transparencia */
+  background-color: rgba(249, 176, 5, 0.692); /* Ajustar la transparencia */
   border-bottom: 1px solid var(--mantine-color-gray-3);
   border-radius: 10px;
 }

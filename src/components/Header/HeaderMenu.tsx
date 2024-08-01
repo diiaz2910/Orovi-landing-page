@@ -12,8 +12,10 @@ const links = [
       { link: "/community", label: "Community" },
     ],
   },
-  { link: "/contact", label: "Contact" },
-  { link: "/pricing", label: "Pricing" },
+  { link: "/home", label: "Home" },
+  { link: "/about us", label: "Pricing" },
+  { link: "/services", label: "Services" },
+  { link: "/destinations", label: "Destinations" },
 ];
 
 export function HeaderMenu() {
